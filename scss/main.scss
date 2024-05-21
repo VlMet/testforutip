@@ -1,0 +1,23 @@
+@import "normalize";
+
+@import "fonts";
+@import "variables";
+@import "default";
+
+@import "effects/hover-effect";
+
+@import "blocks/content-block";
+
+@import "blocks/button";
+@import "blocks/platform-btn";
+@import "blocks/link-list";
+@import "blocks/navigation";
+@import "blocks/quest-card";
+@import "blocks/advantages";
+@import "blocks/action-btns";
+
+@import "sections/header"; 
+@import "sections/info-section";
+@import "sections/platform-section";
+@import "sections/advantages-section";
+@import "sections/footer";

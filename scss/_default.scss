@@ -1,0 +1,52 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0 auto;
+  font-family: 'Inter', sans-serif;
+  background: $base-white;
+  color: $base-black;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0;
+  overflow-x: hidden;
+  position: relative;
+}
+
+button {
+  background: none;
+  border: none;
+}
+body * {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: $base-black;
+}
+ul {
+  list-style-type: none;
+}
+img {
+  //width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: $md) {
+  body {
+    line-height: 24px;
+  }
+}
+
+@media screen and (min-width: $lg) {
+  body {
+    font-size: 16px;
+  }
+}

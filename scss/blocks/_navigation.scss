@@ -1,0 +1,15 @@
+.navigation {
+  //margin-right: auto;
+  &__items {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  &__item {
+    margin-right: 92px;
+    &--active * {
+      color: $light-blue !important;
+      font-weight: 600;
+    }
+  }
+}

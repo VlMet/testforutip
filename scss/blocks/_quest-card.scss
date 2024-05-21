@@ -1,0 +1,73 @@
+.quest-card {
+  background-color: $base-white;
+  width: 100%;
+  margin-top: 20px;
+
+  &__head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__footer {
+    margin-top: 20px;
+  }
+
+  &__btn {
+    display: block;
+    border-radius: $b-radius;
+    background-color: $light-gray;
+    min-width: 30px;
+    min-height: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 0;
+    background-size: 50% 50%;
+    background-image: url('data:image/svg+xml,<svg width="12.000000" height="1.000000" viewBox="0 0 12 1" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><rect id="Rectangle 2127" x="12.000000" y="-0.666626" width="1.333333" height="12.000000" transform="rotate(90 12.000000 -0.666626)" fill="%23A0A0A0" fill-opacity="1.000000"/></svg>');
+
+    /*&--plus {
+      background-image: url("data:image/svg+xml,%3Csvg width='12.000000' height='12.000000' viewBox='0 0 12 12' fill='none' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cpath id='Vector' d='M6.66 0L5.33 0L5.33 5.33L0 5.33L0 6.66L5.33 6.66L5.33 12L6.66 12L6.66 6.66L12 6.66L12 5.33L6.66 5.33L6.66 0Z' fill='%23A0A0A0' fill-opacity='1.000000' fill-rule='evenodd'/%3E%3C/svg%3E%0A");
+    }*/
+  }
+
+  &__item {
+    padding: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid $dark-gray;
+    &:last-child {
+      border-bottom: none;
+    }
+
+    &--close {
+      .quest-card__text {
+        display: none;
+      }
+      .quest-card__btn {
+        background-image: url("data:image/svg+xml,%3Csvg width='12.000000' height='12.000000' viewBox='0 0 12 12' fill='none' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cpath id='Vector' d='M6.66 0L5.33 0L5.33 5.33L0 5.33L0 6.66L5.33 6.66L5.33 12L6.66 12L6.66 6.66L12 6.66L12 5.33L6.66 5.33L6.66 0Z' fill='%23A0A0A0' fill-opacity='1.000000' fill-rule='evenodd'/%3E%3C/svg%3E%0A");
+      }
+    }
+  }
+
+  &__title {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+}
+@media screen and (min-width: $md) {
+  .quest-card {
+    margin-top: 30px;
+    &__item {
+      padding: 19px 30px;
+    }
+
+    &__title {
+      line-height: 32px;
+    }
+    &__text {
+      margin-top: 42px;
+    }
+  }
+}

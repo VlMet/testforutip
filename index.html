@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Владислав Метелев</title>
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="css/slick.css"
+    />
+    <!--<link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />-->
+    <link rel="stylesheet" href="css/main.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <button class="header__burger hover-effect">menu</button>
+
+      <a href="index.html" class="header__logo"
+        ><img src="assets/images/logo1.svg" alt="logo1"
+      /></a>
+
+      <div class="header__nav">
+        <nav class="navigation">
+          <ul class="navigation__items">
+            <li class="navigation__item"><a href="#">Торговля</a></li>
+            <li class="navigation__item navigation__item--active">
+              <a href="#">Рынки</a>
+            </li>
+            <li class="navigation__item"><a href="#">Клиентам</a></li>
+            <li class="navigation__item"><a href="#">О нас</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="header__right">
+        <span class="header__lang"> RU </span>
+        <button class="header__login">Войти</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="content-block">
+        <div class="content-block__wrap info-section">
+          <div class="info-section__block">
+            <h1 class="content-block__title content-block__title--main">
+              Криптовалютный рынок
+            </h1>
+            <p class="content-block__text info-section__text">
+              Торгуйте криптовалютами на мировом финансовом рынке на
+              конкурентоспособных условиях.
+            </p>
+            <button class="button hover-effect">Открыть счет</button>
+          </div>
+          <img
+            class="info-section__img"
+            src="assets/images/bitcoin.png"
+            alt="bitcoin"
+          />
+        </div>
+      </section>
+
+      <section class="content-block">
+        <div class="content-block__wrap advantages-head">
+          <!--<h2 class="content-block__title advantages-head__title">
+            Преимущества торговли с «United Brokers»
+          </h2>-->
+          <div class="advantages">
+            <h2 class="content-block__title advantages-head__title">
+              Преимущества торговли с «United Brokers»
+            </h2>
+            <ul class="advantages__list advantages-section">
+              <li class="advantages__item advantages__item--main">
+                <div class="advantages-section__block">
+                  <i class="advantages__icon advantages__icon--v5"></i>
+                  <h4 class="advantages__title">Типы счетов</h4>
+                  <p class="advantages__text">
+                    Возможность торговать Mini, Standard, Classic и ProInvest
+                    счетами с одного устройства
+                  </p>
+                </div>
+                <img
+                  class="advantages__img"
+                  src="assets/images/Surface-Studio-Mockup-1 1.png"
+                  alt="surface"
+                />
+              </li>
+              <li class="advantages__item">
+                <i class="advantages__icon advantages__icon--v1"> </i>
+                <h4 class="advantages__title">
+                  Сверхбыстрое исполнение и высокая ликвидность
+                </h4>
+                <p class="advantages__text">
+                  Низкие комиссии, мгновенное исполнение сделок и максимальная
+                  ликвидность
+                </p>
+              </li>
+              <li class="advantages__item">
+                <i class="advantages__icon advantages__icon--v2"></i>
+                <h4 class="advantages__title">
+                  Высокоскоростная инфраструктура
+                </h4>
+                <p class="advantages__text">
+                  Наша ультрасовременная 100G сеть охватывает Европу, Америку,
+                  Азию и Россию, позволяя максимально увеличить скорость
+                  исполнения заявок
+                </p>
+              </li>
+              <li class="advantages__item">
+                <i class="advantages__icon advantages__icon--v3"> </i>
+                <h4 class="advantages__title">Поддержка 24/7</h4>
+                <p class="advantages__text">
+                  Индивидуальный подход к каждому клиенту
+                </p>
+              </li>
+              <li class="advantages__item">
+                <i class="advantages__icon advantages__icon--v4"> </i>
+                <h4 class="advantages__title">
+                  Профессиональная аналитическая поддержка
+                </h4>
+                <p class="advantages__text">
+                  Качественная аналитика: охватываем все финансовые рынки и
+                  инструменты
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-block">
+        <div class="content-block__wrap platform-section">
+          <div class="platform-section__block">
+            <h2 class="content-block__title">Выберите свою платформу</h2>
+            <p class="content-block__text platform-section__text">
+              Переходите на новый уровень трейдинга с профессионально оснащенной
+              платформой «United Brokers». Доступны версии для ПК, веб и
+              смартфонов.
+            </p>
+            <button class="button hover-effect">Подробнее</button>
+          </div>
+          <img
+            class="platform-section__img"
+            src="assets/images/Group 2415.png"
+            alt="Group2415"
+          />
+        </div>
+      </section>
+
+      <section class="content-block">
+        <div class="content-block__wrap">
+          <h2 class="content-block__title content-block__title--big">
+            Вопросы и ответы
+          </h2>
+
+          <ul class="quest-card">
+            <li class="quest-card__item">
+              <div class="quest-card__head">
+                <h3 class="content-block__title quest-card__title">
+                  Что такое криптовалюты?
+                </h3>
+                <button id="trigger1" class="quest-card__btn hover-effect">
+                  Открыть
+                </button>
+              </div>
+              <p id="window1" class="quest-card__text">
+                <b>Криптовалюты</b> – относительно недавно возникшее явление в
+                финансовом мире, стремительно набирающее популярность. Это
+                цифровые деньги, в основе которых лежит децентрализованная
+                открытая база – блокчейн, функционирующая на основе
+                криптографических методов. Криптовалюты не имеют физического
+                облика, они существуют лишь в электронном виде.
+              </p>
+            </li>
+
+            <li class="quest-card__item quest-card__item--close">
+              <div class="quest-card__head">
+                <h3 class="content-block__title quest-card__title">
+                  Основные преимущества криптовалют
+                </h3>
+                <button
+                  id="trigger2"
+                  class="quest-card__btn quest-card__btn--plus hover-effect"
+                >
+                  Открыть
+                </button>
+              </div>
+
+              <p id="window2" class="quest-card__text">
+                <b>Криптовалюты</b> – относительно недавно возникшее явление в
+                финансовом мире, стремительно набирающее популярность. Это
+                цифровые деньги, в основе которых лежит децентрализованная
+                открытая база – блокчейн, функционирующая на основе
+                криптографических методов. Криптовалюты не имеют физического
+                облика, они существуют лишь в электронном виде.
+              </p>
+            </li>
+          </ul>
+          <button class="button hover-effect quest-card__footer">
+            Начать торговать
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="content-block content-block--blue">
+        <div class="content-block__wrap footer__content">
+          <div class="footer__head">
+            <img
+              src="assets/images/logo2.svg"
+              alt="logo2"
+              class="footer__logo"
+            />
+
+            <div class="footer__acion action-btns">
+              <div>
+                <span class="action-btns__title"
+                  >Скачать приложение United Brokers:</span
+                >
+                <ul class="footer__apps">
+                  <li>
+                    <a
+                      href="#"
+                      class="platform-btn platform-btn--windows hover-effect"
+                      >windows</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="platform-btn platform-btn--cloud hover-effect"
+                      >cloud</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="platform-btn platform-btn--apple hover-effect"
+                      >apple</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="platform-btn platform-btn--play hover-effect"
+                      >android</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <div class="footer__contacts">
+                <ul class="link-list__items">
+                  <li class="link-list__item link-list__item--important">
+                    <a href="tel:+7 (900) 222-99-99">+7 (900) 222-99-99</a>
+                  </li>
+                  <li class="link-list__item link-list__item--important">
+                    <a href="mailto:info@unitedbrokers.io"
+                      >info@unitedbrokers.io</a
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <a href="#" class="button hover-effect action-btns__button"
+                >Личный кабинет</a
+              >
+            </div>
+          </div>
+          <div class="link-list footer__nav">
+            <div class="link-list__block">
+              <p class="link-list__title">Торговля</p>
+              <ul class="link-list__items">
+                <li class="link-list__item"><a href="#">Платформы</a></li>
+                <li class="link-list__item"><a href="#">Типы счетов</a></li>
+                <li class="link-list__item">
+                  <a href="#">Условия торговли</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="link-list__block">
+              <p class="link-list__title">Рынки</p>
+              <ul class="link-list__items">
+                <li class="link-list__item"><a href="#">Валютный рынок</a></li>
+                <li class="link-list__item"><a href="#">Фондовый рынок</a></li>
+                <li class="link-list__item"><a href="#">Товарный рынок</a></li>
+                <li class="link-list__item"><a href="#">Индексы</a></li>
+                <li class="link-list__item"><a href="#">Криптовалюты</a></li>
+              </ul>
+            </div>
+
+            <div class="link-list__block">
+              <p class="link-list__title">Клиентам</p>
+              <ul class="link-list__items">
+                <li class="link-list__item"><a href="#">Аналитика</a></li>
+                <li class="link-list__item"><a href="#">Новости</a></li>
+                <li class="link-list__item"><a href="#">Обучение</a></li>
+                <li class="link-list__item">
+                  <a href="#">Советы трейдерам</a>
+                </li>
+                <li class="link-list__item">
+                  <a href="#">Программа лояльности</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="link-list__block">
+              <p class="link-list__title">О нас</p>
+              <ul class="link-list__items">
+                <li class="link-list__item"><a href="#">Аналитика</a></li>
+                <li class="link-list__item"><a href="#">Новости</a></li>
+                <li class="link-list__item"><a href="#">Обучение</a></li>
+                <li class="link-list__item">
+                  <a href="#">Советы трейдерам</a>
+                </li>
+                <li class="link-list__item">
+                  <a href="#">Программа лояльности</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="link-list__block footer__number">
+              <p class="link-list__title">Контакты</p>
+              <ul class="link-list__items">
+                <li class="link-list__item link-list__item--important">
+                  <a href="tel:+7 (900) 222-99-99">+7 (900) 222-99-99</a>
+                </li>
+                <li class="link-list__item link-list__item--important">
+                  <a href="mailto:info@unitedbrokers.io"
+                    >info@unitedbrokers.io</a
+                  >
+                </li>
+              </ul>
+            </div>
+
+            <div class="link-list__block">
+              <p class="link-list__title">Документы</p>
+              <ul class="link-list__items">
+                <li class="link-list__item link-list__item--dashed">
+                  <a href="#">Клиентское соглашение</a>
+                </li>
+                <li class="link-list__item link-list__item--dashed">
+                  <a href="#">Политика конфиденциальности</a>
+                </li>
+                <li class="link-list__item link-list__item--dashed">
+                  <a href="#">Политика возврата платежей</a>
+                </li>
+                <li class="link-list__item link-list__item--dashed">
+                  <a href="#">Свидетельство о регистрации</a>
+                </li>
+                <li class="link-list__item link-list__item--dashed">
+                  <a href="#">Политика AML</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__info">
+            <p>
+              © United Brokers 2021. Все права защищены. Любое использование
+              материалов сайта без разрешения запрещено.
+            </p>
+            <br />
+            <p>
+              Уведомление о рисках: Инвестирование в группы высокого риска:
+              (Forex) и контрактами на разницу (CFD) является спекулятивной
+              операцией, включая высокий риск, и не подходит для каждого
+              инвестора. Вы можете понести частичные, так и полные потери
+              вложенных средств, поэтому мы не советуем инвестировать капитал,
+              которым вы не можете рисковать. Вы должны знать о повышенном
+              риске, связанном с использованием кредитного плеча. Мы
+              настоятельно рекомендуем вам ознакомиться с условиями и услугами
+              нашего веб-сайта, прежде чем начать пользоваться нашим сервисом.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="js/slick.min.js"
+    ></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+.platform-btn {
+  display: block;
+  border-radius: $b-radius;
+  background-color: $base-white;
+  width: 38px;
+  height: 38px;
+  background-repeat: no-repeat;
+  background-position: center;
+  //vertical-align: bottom;
+  font-size: 0;
+  background-size: 40% 40%;
+  //background-clip: border-box;
+
+  &--windows {
+    background-image: url('../assets/images/platform1.svg');
+  }
+  &--cloud {
+    background-image: url('../assets/images/platform2.svg');
+  }
+  &--apple {
+    background-image: url('../assets/images/platform3.svg');
+  }
+  &--play {
+    background-image: url('../assets/images/platform4.svg');
+  }
+}
+
+@media screen and (min-width: $md) {
+  .platform-btn {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media screen and (min-width: $lg) {
+  .platform-btn {
+    width: 53px;
+    height: 53px;
+  }
+}
